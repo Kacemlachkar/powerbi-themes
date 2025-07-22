@@ -1,0 +1,96 @@
+{
+  "name": "Futura Clarity",
+  "dataColors": [
+    "#00B8D9", "#36B37E", "#6554C0", "#FFAB00", "#FF5630", "#2684FF",
+    "#FFC400", "#00C7E6", "#FF6E97", "#6C63FF"
+  ],
+  "background": "#FFFFFF",
+  "foreground": "#1A1A1A",
+  "tableAccent": "#00B8D9",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": { "color": "#FFFFFF" }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": { "color": "#E0E0E0" }
+            },
+            "show": true,
+            "radius": 12
+          }
+        ],
+        "dropShadow": [
+          {
+            "position": "Outer",
+            "show": true,
+            "color": {
+              "solid": { "color": "#D0D7E2" }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": { "color": "#F7F9FB" }
+            },
+            "foreground": {
+              "solid": { "color": "#1A1A1A" }
+            },
+            "border": {
+              "solid": { "color": "#E0E0E0" }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": { "color": "#1A1A1A" }
+            },
+            "valueFontColor": {
+              "solid": { "color": "#333333" }
+            },
+            "background": {
+              "solid": { "color": "#F9FAFB" }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#333333",
+      "fontSize": 11
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1A1A1A",
+      "fontSize": 12
+    },
+    "title": {
+      "fontFace": "Segoe UI Bold",
+      "color": "#000000",
+      "fontSize": 14
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#1A1A1A",
+      "fontSize": 13
+    }
+  },
+  "good": "#36B37E",
+  "neutral": "#FFAB00",
+  "bad": "#FF5630",
+  "minimum": "#FF5630",
+  "center": "#FFAB00",
+  "maximum": "#36B37E"
+}

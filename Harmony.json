@@ -1,0 +1,96 @@
+{
+  "name": "Harmoniq View",
+  "dataColors": [
+    "#A0C4FF", "#BDB2FF", "#FFC6FF", "#FDFFB6", "#CAFFBF",
+    "#9BF6FF", "#FFADAD", "#FFD6A5", "#CDEAC0", "#FFCBC1"
+  ],
+  "background": "#F9FAFB",
+  "foreground": "#2E2E2E",
+  "tableAccent": "#A0C4FF",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": { "color": "#FFFFFF" }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": { "color": "#EAECEF" }
+            },
+            "show": true,
+            "radius": 10
+          }
+        ],
+        "dropShadow": [
+          {
+            "position": "Outer",
+            "show": true,
+            "color": {
+              "solid": { "color": "#D0D3DB" }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": { "color": "#F3F4F6" }
+            },
+            "foreground": {
+              "solid": { "color": "#2E2E2E" }
+            },
+            "border": {
+              "solid": { "color": "#E1E3E6" }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": { "color": "#1C1C1C" }
+            },
+            "valueFontColor": {
+              "solid": { "color": "#444444" }
+            },
+            "background": {
+              "solid": { "color": "#FFFDF8" }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#444444",
+      "fontSize": 11
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2E2E2E",
+      "fontSize": 12
+    },
+    "title": {
+      "fontFace": "Segoe UI Bold",
+      "color": "#1E1E1E",
+      "fontSize": 14
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#2E2E2E",
+      "fontSize": 13
+    }
+  },
+  "good": "#A3D9A5",
+  "neutral": "#FFD6A5",
+  "bad": "#FFADAD",
+  "minimum": "#FFADAD",
+  "center": "#FFE28B",
+  "maximum": "#A3D9A5"
+}

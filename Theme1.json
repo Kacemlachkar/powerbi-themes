@@ -1,0 +1,87 @@
+{
+  "name": "Modern Soft Focus",
+  "dataColors": [
+    "#4db6ac",
+    "#5c6bc0",
+    "#ff8a65",
+    "#aed581",
+    "#90a4ae",
+    "#fbc02d",
+    "#ba68c8"
+  ],
+  "background": "#fafafa",
+  "foreground": "#212121",
+  "tableAccent": "#4db6ac",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "title": [
+          {
+            "fontSize": 14,
+            "fontFamily": "Segoe UI",
+            "color": { "solid": { "color": "#333333" } }
+          }
+        ],
+        "labelColor": [
+          {
+            "color": { "solid": { "color": "#5f6368" } }
+          }
+        ],
+        "header": [
+          {
+            "fontSize": 12,
+            "fontFamily": "Segoe UI Semibold",
+            "color": { "solid": { "color": "#212121" } }
+          }
+        ],
+        "border": [
+          {
+            "color": { "solid": { "color": "#e0e0e0" } }
+          }
+        ]
+      }
+    },
+    "card": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#ffffff" } }
+          }
+        ],
+        "title": [
+          {
+            "fontSize": 13,
+            "color": { "solid": { "color": "#444444" } }
+          }
+        ],
+        "labels": [
+          {
+            "fontSize": 16,
+            "color": { "solid": { "color": "#2e7d32" } }
+          }
+        ]
+      }
+    },
+    "slicer": {
+      "*": {
+        "background": [
+          {
+            "color": { "solid": { "color": "#ffffff" } }
+          }
+        ],
+        "outlineColor": [
+          {
+            "solid": { "color": "#e0e0e0" }
+          }
+        ],
+        "header": [
+          {
+            "fontSize": 12,
+            "fontFamily": "Segoe UI",
+            "color": { "solid": { "color": "#424242" } }
+          }
+        ]
+      }
+    }
+  }
+}

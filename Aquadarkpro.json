@@ -1,0 +1,96 @@
+{
+  "name": "AQUA Dark Pro",
+  "dataColors": [
+    "#4DD0E1", "#F48FB1", "#CE93D8", "#81D4FA", "#A5D6A7", "#FFD54F",
+    "#FFAB91", "#B0BEC5", "#90CAF9", "#E6EE9C"
+  ],
+  "background": "#1E1E2F",
+  "foreground": "#F3F4F6",
+  "tableAccent": "#4DD0E1",
+  "visualStyles": {
+    "*": {
+      "*": {
+        "background": [
+          {
+            "color": {
+              "solid": { "color": "#2B2B3C" }
+            },
+            "transparency": 0
+          }
+        ],
+        "border": [
+          {
+            "color": {
+              "solid": { "color": "#3A3A4A" }
+            },
+            "show": true,
+            "radius": 8
+          }
+        ],
+        "dropShadow": [
+          {
+            "position": "Outer",
+            "show": true,
+            "color": {
+              "solid": { "color": "#00000080" }
+            }
+          }
+        ],
+        "visualHeader": [
+          {
+            "background": {
+              "solid": { "color": "#1E1E2F" }
+            },
+            "foreground": {
+              "solid": { "color": "#F3F4F6" }
+            },
+            "border": {
+              "solid": { "color": "#3A3A4A" }
+            }
+          }
+        ],
+        "visualTooltip": [
+          {
+            "titleFontColor": {
+              "solid": { "color": "#FFFFFF" }
+            },
+            "valueFontColor": {
+              "solid": { "color": "#E0E0E0" }
+            },
+            "background": {
+              "solid": { "color": "#2B2B3C" }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "color": "#D1D5DB",
+      "fontSize": 11
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F3F4F6",
+      "fontSize": 10
+    },
+    "title": {
+      "fontFace": "Segoe UI Bold",
+      "color": "#FFFFFF",
+      "fontSize": 12
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "color": "#F3F4F6",
+      "fontSize": 11
+    }
+  },
+  "good": "#66BB6A",
+  "neutral": "#FFCA28",
+  "bad": "#EF5350",
+  "minimum": "#EF5350",
+  "center": "#FFCA28",
+  "maximum": "#66BB6A"
+}
